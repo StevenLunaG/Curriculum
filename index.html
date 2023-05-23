@@ -1,0 +1,131 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Perfil de Estudiante</title>
+  <style>
+    body {
+      font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+      background-color: #201726;
+    }
+    h1 {
+      color: white;
+      font-size: 2em;
+      margin-top: 55;
+    }
+    h2 {    
+      color: white;
+      font-size: 1.5em;
+      margin-top: 10;
+    }
+    h3 {    
+      color: white;
+      font-size: 1.5em;
+      margin-top: 10;
+    }
+    p {
+      color: white;
+      line-height: 1.5;
+    }
+    .img1 {
+      max-width: 25%;
+      margin-top: 20;
+    }
+    .img2 {
+      max-width: 100%;
+    }
+    .container {
+      max-width: 1500px;
+      margin: 0 auto;
+    }
+    .header {
+      background-color: #3E2C41;
+      padding: 20px;
+      color: white;
+    }
+    .content {
+      padding: 20px;
+    }
+    .footer {
+      background-color: #444;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    
+    .header h1 {
+      animation: fadeIn 1.5s;
+    }
+    
+    .header h2,.rectangulo {
+      animation: slideSide 1.5s;
+    }
+
+    .content p {
+      animation: fadeIn 2s;
+    }
+    
+    .footer p {
+      animation: fadeIn 2s;
+    }
+    
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    @keyframes slideUp {
+      0% {
+        transform: translateY(-50px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+    @keyframes slideSide {
+      0% {
+        transform: translateX(-50px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    
+    .rectangulo {
+        background-color: #3f014a;
+        padding: 2px;
+        width: 400px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Perfil de Estudiante</h1>
+    </header>
+    <img src="img/perfil1.jpg" alt="Image" class="img2">
+    <div class="content">
+      <div class="rectangulo">
+        <h2>Informacion General:</h2>
+    </div>
+      <h2>Nombre:</h2>
+      <p>Steven Ernesto Luna Gaona</p>
+      <h2>Fecha de Nacimietn:</h2>
+      <p>Junio, 2003</p>
+      <h2>Educacion Secundaria:</h2>
+      <p>Unidad Educativa Fiscomisional "Daniel Alvarez Burneo"</p>
+      <h2>Educacion Superior:</h2>
+      <p>Universidad Naciona de Loja</p>
+      <h2>Carrera:</h2>
+      <p>Ingenieria en Ciencias de la Computacion</p>
+      <div class="rectangulo">
+        <h2>Contacto:</h2>
+    </div>
+      <p>steven.luna@unl.edu.ec</p>
+</body>
+</html>
